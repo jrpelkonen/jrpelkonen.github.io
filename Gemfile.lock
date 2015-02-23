@@ -13,22 +13,24 @@ GEM
       maruku (~> 0.5)
       pygments.rb (~> 0.3.2)
     kramdown (0.13.8)
-    liquid (2.4.1)
+    liquid (2.6.1)
     maruku (0.6.1)
       syntax (>= 1.0.0)
-    nokogiri (1.5.9-x86-mingw32)
+    nokogiri (1.5.9)
     posix-spawn (0.3.6)
     pygments.rb (0.3.7)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    redcarpet (3.2.2)
     sass (3.2.5)
     syntax (1.0.0)
-    yajl-ruby (1.1.0-x86-mingw32)
+    yajl-ruby (1.1.0)
 
 PLATFORMS
-  x86-mingw32
+  ruby
 
 DEPENDENCIES
   jekyll
   nokogiri
+  redcarpet
   sass

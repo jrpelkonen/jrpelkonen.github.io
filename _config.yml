@@ -1,7 +1,21 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+name: Inferred Type
+description: 
 
-auto: true # automatically update your jekyll
-server: true # runs a local server
-paginate: 10 # pagination basted on number of posts
+url: 
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: redcarpet
+pygments: true
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about.html
+ - title: Contact
+   url: /contact.html
 exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
-
+auto: true
+server: true
