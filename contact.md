@@ -8,7 +8,7 @@ title: Contact Inferred Type
   <div class="contactContent">
     <p class="intro">You may use this form to contact me.</p>
   </div>
-  <form action="http://formspree.io/janne.pelkonen@gmail.com">
+  <form method="post" action="http://formspree.io/janne.pelkonen@gmail.com">
     <label for="name">Name</label>    
     <input type="text" id="name" name="name" class="full-width"><br>
     <label for="email">Email Address</label>
